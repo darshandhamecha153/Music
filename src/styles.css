@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #567edd;
+    color: white;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .App {
+    margin-top: 50px;
+  }
+  .player-container h1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    font-size: 2.5rem;
+    font-weight: bold;  
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: fade-in 1s ease-in-out;
+  }
+
+  .player {
+    background: #33333392;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 2%;
+    width: 400px;
+  }
+
+  .cover {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    font-size: 24px;
+    margin: 20px 0;
+    cursor: pointer;
+  }
+  
+  .volume {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .playlist-item {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid white;
+  }
+
+  .player img {
+    width: 150px;
+    height: 150px;
+  }
+
+  
+
